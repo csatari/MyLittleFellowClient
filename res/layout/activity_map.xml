@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context=".MapActivity" >
+    <fragment
+          android:id="@+id/map"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|right"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="top|right"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/togglButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/ib_map"
+                android:src="@drawable/google_map_icon32" />
+
+            <ImageButton
+                android:id="@+id/discoverModeButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/ib_discovery"
+                android:src="@drawable/discovery_mode_icon32" />
+            
+            <ImageButton
+                android:id="@+id/locationButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/ib_location"
+                android:src="@drawable/location_icon_32" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

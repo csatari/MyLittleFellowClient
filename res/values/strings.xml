@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Little Fellow</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="new_account">You have created a new account with your e-mail: </string>
+    <!-- Registration dialog -->
+    <string name="register_title">Registration</string>
+    <string name="register_username">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_repassword">Retype password</string>
+    <string name="register_send">Send</string>
+    <string name="register_password_notequal">Passwords are not equal</string>
+    <string name="register_password_empty">Password cannot be empty</string>
+    <string name="register_username_empty">Username cannot be empty</string>
+    <string name="register_username_accented">Username cannot contain accented letters</string>
+    <!-- Taxresource dialog -->
+    <string name="taxresource_hint">Amount</string>
+    <string name="taxresource_set">Set</string>
+    <!-- Help menu -->
+    <string name="menu_help">Help</string>
+    <!-- Image button descriptions -->
+    <string name="ib_location">Go to character</string>
+    <string name="ib_map">Toggle Google map</string>
+    <string name="ib_discovery">Toggle discovery mode</string>
+    <!-- Crash -->
+    <string name="crash_send">Sending report about the crash to the developer</string>
+    <!-- Storage throw away -->
+    <string name="storage_title">Throw away resources</string>
+    <string name="storage_throw">Throw</string>
+    <string name="storage_cancel">Cancel</string>
+    <!-- BaseActivity -->
+    <string name="baseactivity_alreadydoing">Already doing something!</string>
+    <string name="baseactivity_notloggedin">You are not logged in, redirecting&#8230;</string>
+    <!-- InformationDialog -->
+    <string name="informationdialog_ok">Ok</string>
+    
+
+</resources>

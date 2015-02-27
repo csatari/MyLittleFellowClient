@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forest_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/countdownText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/background_blur"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/centerGridview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2" >
+    </GridView>
+
+</LinearLayout>
